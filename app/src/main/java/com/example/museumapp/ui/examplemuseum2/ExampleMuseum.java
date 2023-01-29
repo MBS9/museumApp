@@ -11,8 +11,11 @@ import androidx.annotation.Nullable;
 
 import com.example.museumapp.R;
 
-class ExampleMuseum extends Fragment {
+public class ExampleMuseum extends Fragment {
 
+    public ExampleMuseum() {
+        // Required empty public constructor
+    }
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
