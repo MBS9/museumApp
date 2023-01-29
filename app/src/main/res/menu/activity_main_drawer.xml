@@ -16,5 +16,9 @@
             android:id="@+id/nav_Museum"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Museum1" />
+        <item
+            android:id="@+id/nav_example_museum"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Example Museum" />
     </group>
 </menu>
