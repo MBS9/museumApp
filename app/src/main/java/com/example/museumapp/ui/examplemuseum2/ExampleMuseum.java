@@ -1,4 +1,4 @@
-package com.example.museumapp;
+package com.example.museumapp.ui.examplemuseum2;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.example.museumapp.R;
 
 class ExampleMuseum extends Fragment {
 

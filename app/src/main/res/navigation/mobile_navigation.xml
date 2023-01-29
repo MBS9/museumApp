@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_museum1" />
     <fragment
         android:id="@+id/nav_example_museum"
-        android:name="com.example.museumapp.ui.ExampleMuseum"
+        android:name="com.example.museumapp.ui.examplemuseum2.ExampleMuseum"
         android:label="Example Museum"
         tools:layout="@layout/fragment_example_museum" />
 </navigation>
