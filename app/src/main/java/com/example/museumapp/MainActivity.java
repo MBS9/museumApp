@@ -63,9 +63,4 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
-
-    public void buttonOnClick(View view) {
-        Button button = (Button)view.findViewById(R.id.exampleButton1);
-        button.setText("You have clicked!");
-    }
 }
