@@ -3,17 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Museum1">
+    tools:context=".ui.exampleMuseum.Museum1">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Example Museum1" />
+
     <Button
         android:id="@+id/exampleButton1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Example Museum1" />
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100px"
+        android:onClick="buttonOnClick"
+        android:text="Click me!" />
 
 </FrameLayout>
