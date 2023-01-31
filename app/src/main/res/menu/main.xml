@@ -7,8 +7,7 @@
         android:icon="@drawable/ic_settings"
         android:orderInCategory="100"
         android:title="Settings"
-        app:showAsAction="always">
-        />
+        app:showAsAction="always"/>
 
 
 </menu>
