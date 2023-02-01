@@ -9,6 +9,10 @@
             android:icon="@drawable/ic_menu_home"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/nav_interests_quiz"
+            android:icon="@drawable/baseline_quiz_24"
+            android:title="Interests Quiz" />
+        <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
@@ -16,5 +20,6 @@
             android:id="@+id/nav_example_museum"
             android:icon="@drawable/baseline_museum_24"
             android:title="Example Museum" />
+
     </group>
 </menu>

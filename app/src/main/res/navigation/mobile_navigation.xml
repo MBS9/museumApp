@@ -22,4 +22,9 @@
         android:name="com.example.museumapp.ui.examplemuseum2.ExampleMuseum"
         android:label="Example Museum"
         tools:layout="@layout/fragment_example_museum" />
+    <fragment
+        android:id="@+id/nav_interests_quiz"
+        android:name="com.example.museumapp.ui.interestsquiz.InterestsQuiz"
+        android:label="Interests Quiz"
+        tools:layout="@layout/fragment_interests_quiz" />
 </navigation>
