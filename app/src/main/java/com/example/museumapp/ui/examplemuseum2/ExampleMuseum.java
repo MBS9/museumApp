@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -30,10 +31,12 @@ public class ExampleMuseum extends Fragment {
         view =  inflater.inflate(R.layout.fragment_example_museum, container, false);
         TextView description = view.findViewById(R.id.description_museum_example);
         TextView viewMore = view.findViewById(R.id.view_museum_example);
+        ImageView imageView = (ImageView)view.findViewById((R.id.imu_picture));
         viewMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 viewMore.setVisibility(View.INVISIBLE);
+                imageView.setVisibility(View.GONE);
                 description.setMaxLines(Integer.MAX_VALUE);
             }
         });

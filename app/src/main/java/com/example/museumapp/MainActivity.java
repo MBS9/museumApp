@@ -30,28 +30,12 @@ import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
-
-    Button view_museum_example;
-    ImageView imageView;
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        view_museum_example.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-
-                imageView.setVisibility(View.GONE);
-            }
-        });
-
-        view_museum_example = (Button)findViewById(R.id.view_museum_example);
-        imageView = (ImageView)findViewById((R.id.imu_picture));
-
-
-
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
