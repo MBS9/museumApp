@@ -1,11 +1,13 @@
 package com.example.museumapp;
 
 import android.content.Intent;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.museumapp.ui.home.HomeFragment;
@@ -26,7 +28,11 @@ import com.example.museumapp.databinding.ActivityMainBinding;
 
 import java.util.List;
 
+
 public class MainActivity extends AppCompatActivity {
+
+    Button view_museum_example;
+    ImageView imageView;
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
@@ -34,6 +40,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        view_museum_example =(Button)findViewById(R.id.view_museum_example);
+        imageView = (ImageView)findViewById(R.id.imageView);
+
+        view_museum_example.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageView.setVisibility(View.INVISIBLE);
+            }
+        });
+    {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -60,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-    }
+    }}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -68,7 +86,6 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
