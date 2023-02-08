@@ -1,24 +1,22 @@
-package com.example.museumapp.ui.examplemuseum2;
+package com.example.museumapp.ui.national_gallery_folder;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.fragment.app.Fragment;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.example.museumapp.R;
 
 
-
-public class ExampleMuseum extends Fragment {
+public class national_gallery extends Fragment {
     View view;
-    public ExampleMuseum() {
+    public national_gallery() {
         // Required empty public constructor
     }
     @Nullable
@@ -28,10 +26,10 @@ public class ExampleMuseum extends Fragment {
                              @Nullable Bundle savedInstanceState) {
 
 
-        view =  inflater.inflate(R.layout.fragment_example_museum, container, false);
+        view =  inflater.inflate(R.layout.fragment_national_gallery, container, false);
         TextView description = view.findViewById(R.id.description_museum_example);
-        TextView viewMore = view.findViewById(R.id.view_museum_example);
-        ImageView imageView = (ImageView)view.findViewById((R.id.imu_picture));
+        TextView viewMore = view.findViewById(R.id.view_national_museum);
+        ImageView imageView = (ImageView)view.findViewById((R.id.national_museum_picture));
         viewMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -17,9 +17,13 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_example_museum"
+            android:id="@+id/nav_museum_of_illusions"
+            android:icon="@drawable/imu_24"
+            android:title="@string/museum_of_illusions" />
+        <item
+            android:id="@+id/nav_national_museum"
             android:icon="@drawable/baseline_museum_24"
-            android:title="Example Museum" />
+            android:title="@string/national_gallery" />
 
     </group>
 </menu>

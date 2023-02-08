@@ -7,10 +7,12 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="museum_of_illusions">Museum of Illusions</string>
+    <string name="national_gallery">National Gallery</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="large_text">
 
@@ -23,6 +25,23 @@
         "\n\n Be brave enough to jump into an illusion created by the Vortex Tunnel that will drive you crazy and make stepping forward through a rotating cylinder seem as a great struggle and yet the surface is so stable and flat! Deform the image of yourself in the Mirror Room, lose yourself in the Infinity room, resist the laws of gravity and size ratio, and take pictures of yourself in EVERY POSSIBLE POSE!"
 
         "\n\n Enjoy in our collection of holograms, look closer at every optical illusion and thoroughly observe each installation. They are such a brilliant, playful reminder that our assumptions about the world we perceive are often nothing but a specter of illusions.\n If you are told that you will remain speechless faced with such an exhibition, would you believe it?\n \n Every corner of the Museum of Illusions is accompanied by a rational and scientific explanation that allows you to learn a whole lot of extraordinary things about our vision, our perception and the functioning of our intellect. The goal is to discover why our eyes perceive things that are incomprehensible to our brain."
+
+        "\n\n Make sure you visit our playroom with intriguing and educational games and puzzles. These brain bashers are definitely great fun but they also tend to be frustrating.\n\nCome and explore the world of illusions! Experience the impossible! Make sure your camera is fully charged and that there is enough memory space before you visit. By all means, take your camera with you."
+
+
+    </string>
+
+    <string name="national_gallery_text">
+
+        "The history of the Royal Palace in the Buda Castle, which was at that time recognised as a magnificent royal residence in Europe, dates back to the 14th century, the reign of kings Louis the Great, Sigismund, and Matthias Corvinus (1458–1490). The state of the building badly deteriorated during the Turkish occupation starting in 1541, and during the Battle of Buda in 1686. The restoration, in the then fashionable Baroque style, began during the reign of Queen Maria Theresa in 1749. "
+
+        "\n\n  At the end of the 19th century the palace was expanded with another wing according to the plans of architects Miklós Ybl and Alajos Hauszmann, and later neo-Baroque ornamentation was also added. During World War II the building was again severely damaged; its reconstruction began in the 1960s. The Hungarian National Gallery moved to the Royal Palace of Buda Castle in 1975."
+
+        "\n\n The Hungarian National Gallery is the largest public collection documenting and presenting the rise and development of the fine arts in Hungary. It has operated as an independent institution since 1957. The HNG moved to its present location, the former Royal Palace of Buda, in 1975."
+
+        "\n\n The Buda Palace with its characteristic Dome, easily recognizable even from afar is one of the symbols of Budapest. As the highest point of the Palace, the Dome of the Hungarian National Gallery offers an unparalleled view on the capital."
+
+        "\n\n The family crypt in Buda Castle holding the earthly remains of Archduke Joseph, Palatine of Hungary, his family members and descendants, is the only part of the Hungarian National Gallery that still preserves something of the palace’s original, 19th-century beauty. The crypt was part of and located under the Saint Sigismund chapel, which was demolished in 1961. From the 1790s the palace became the residence of the palatine, i.e. the prevailing Hungarian representative of the king. Archduke Joseph, a brother of King Francis I, held the title of palatine between 1795 and 1847 and, with royal consent, was the first to have the crypts of the castle chapel converted into a family burial place. After the death of the palatine and his widow their son, Joseph Karl, commissioned two architects, first Miklós Ybl and later Alajos Hausmann, to reconstruct the crypt, while the sculptor, György Zala, was entrusted with making the palatine’s sepulchre."
 
         "\n\n Make sure you visit our playroom with intriguing and educational games and puzzles. These brain bashers are definitely great fun but they also tend to be frustrating.\n\nCome and explore the world of illusions! Experience the impossible! Make sure your camera is fully charged and that there is enough memory space before you visit. By all means, take your camera with you."
 

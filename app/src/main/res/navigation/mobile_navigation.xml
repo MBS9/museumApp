@@ -18,13 +18,19 @@
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
     <fragment
-        android:id="@+id/nav_example_museum"
-        android:name="com.example.museumapp.ui.examplemuseum2.ExampleMuseum"
-        android:label="Example Museum"
+        android:id="@+id/nav_museum_of_illusions"
+        android:name="com.example.museumapp.ui.museum_of_illusions_folder.museum_of_illusions"
+        android:label="@string/museum_of_illusions"
         tools:layout="@layout/fragment_example_museum" />
     <fragment
         android:id="@+id/nav_interests_quiz"
         android:name="com.example.museumapp.ui.interestsquiz.InterestsQuiz"
         android:label="Interests Quiz"
         tools:layout="@layout/fragment_interests_quiz" />
+    <fragment
+        android:id="@+id/nav_national_museum"
+        android:name="com.example.museumapp.ui.national_gallery_folder.national_gallery"
+        android:label="@string/museum_of_illusions"
+        tools:layout="@layout/fragment_example_museum" />
+
 </navigation>
