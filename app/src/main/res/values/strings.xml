@@ -13,6 +13,7 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="museum_of_illusions">Museum of Illusions</string>
     <string name="national_gallery">National Gallery</string>
+    <string name="mucsarnok">Műcsarnok</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="large_text">
 
@@ -45,6 +46,16 @@
 
         "\n\n Make sure you visit our playroom with intriguing and educational games and puzzles. These brain bashers are definitely great fun but they also tend to be frustrating.\n\nCome and explore the world of illusions! Experience the impossible! Make sure your camera is fully charged and that there is enough memory space before you visit. By all means, take your camera with you."
 
+
+    </string>
+
+    <string name="mucsarnok_text">
+
+        "Ever since its establishment at the end of the 19th century, Kunsthalle has been the centre of contemporary Hungarian fine art, and a key institution in canon-formation. It is a national institution with the mission of exhibiting the most significant trends of both contemporary Hungarian and international fine art in Budapest."
+
+        "\n\n The art centre at Heroes’ Square in Budapest is open to the whole spectrum of Hungarian visual culture. It operates strictly according to the principle of aesthetic value, without any constraint of ideology or age. Besides organising exhibitions, programs involving other art forms, and academic conferences, Kunsthalle’s publishing activity is significant as well."
+
+        "\n\n The Műcsarnok (“art hall”) was founded in 1877 on the initiative of the Hungarian National Fine Arts Association. The original building was situated at 69–71 Andrássy Street, now home to the University of Fine Arts. The exhibition hall on Heroes’ Square was erected in 1896 for the millennium celebrations, and was designed by Albert Schikedanz. Today the hall operates on the pattern of the German Kunsthalle: it is an institution run by artists that does not maintain its own collection. The three-bayed, semi-circular apse houses a roofed exhibition hall that allows in light through the roof. Since the building was renovated in 1995 the Műcsarnok has welcomed visitors and leading Hungarian and international contemporary artists alike, mediating and representing modern artistic tendencies whilst not maintaining its own permanent collection."
 
     </string>
 

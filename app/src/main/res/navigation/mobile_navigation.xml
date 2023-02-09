@@ -32,5 +32,10 @@
         android:name="com.example.museumapp.ui.national_gallery_folder.national_gallery"
         android:label="@string/museum_of_illusions"
         tools:layout="@layout/fragment_example_museum" />
+    <fragment
+        android:id="@+id/nav_mucsarnok"
+        android:name="com.example.museumapp.ui.mucsarnok_folder.mucsarnok"
+        android:label="@string/mucsarnok"
+        tools:layout="@layout/fragment_example_museum" />
 
 </navigation>

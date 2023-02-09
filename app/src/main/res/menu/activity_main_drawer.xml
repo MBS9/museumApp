@@ -24,6 +24,10 @@
             android:id="@+id/nav_national_museum"
             android:icon="@drawable/mng_logo_24"
             android:title="@string/national_gallery" />
+        <item
+            android:id="@+id/nav_mucsarnok"
+            android:icon="@drawable/mucsarnok_24"
+            android:title="@string/mucsarnok" />
 
     </group>
 </menu>
