@@ -7,9 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.museumapp.databinding.FragmentExampleMuseumBinding;
 import com.example.museumapp.ui.home.HomeFragment;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -34,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
+    ImageButton imuImageButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +57,13 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+       // imuImageButton = (ImageButton) findViewById(R.id.imu_banner);
+       // imuImageButton.setOnClickListener(view -> {
+       //     FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+       //     ft.replace(R.id.homepage_fragment,);
+       //     ft.commit();
+       // });
 
         binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
             @Override
