@@ -14,6 +14,7 @@
     <string name="museum_of_illusions">Museum of Illusions</string>
     <string name="national_gallery">National Gallery</string>
     <string name="mucsarnok">Műcsarnok</string>
+    <string name="mai_mano_house">Mai Manó House</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="large_text">
 
@@ -57,6 +58,29 @@
 
         "\n\n The Műcsarnok (“art hall”) was founded in 1877 on the initiative of the Hungarian National Fine Arts Association. The original building was situated at 69–71 Andrássy Street, now home to the University of Fine Arts. The exhibition hall on Heroes’ Square was erected in 1896 for the millennium celebrations, and was designed by Albert Schikedanz. Today the hall operates on the pattern of the German Kunsthalle: it is an institution run by artists that does not maintain its own collection. The three-bayed, semi-circular apse houses a roofed exhibition hall that allows in light through the roof. Since the building was renovated in 1995 the Műcsarnok has welcomed visitors and leading Hungarian and international contemporary artists alike, mediating and representing modern artistic tendencies whilst not maintaining its own permanent collection."
 
+    </string>
+
+    <string name="mai_mano_house_text">
+
+        "Mai Manó, Imperial and Royal Court Photographer (1855-1917) had his eight-story studio-house and home built in fourteen months in 1893-94."
+
+        "\n\n A professional photographer and specialist, in his time he was one of the best specialists of child portraits. His status in the professional community of that time is uncontested. He was also the founder and editor of the periodical called A Fény (The Light, launched in 1906) The building’s richly decorated neo-renaissance façade clearly served ideological purposes: Mai Manó wanted to lend a past to the young trade, hardly considered to be a form of art by anyone at that time. Take the majolica putti between the ground floor and the mezzanine or the façade paintings on the third floor showing the “six muses of photography”."
+
+        "\n\n Actual photographing took place in the Sunlight-studio on the second floor, we restored in 1996-97. During the restoration, we found the original frescoes hiding bethind the white wallpaper for decades. These used to serve as background for Mai’s portraits. His studio worked in the house for four decades, until 1931. It was followed by a luxury-bar, Arizona, which was closed in 1944."
+
+        "\n\n After the Second World War, a number of institutions and companies moved into the house and a few private apartments were separated as well. In spite of all the vicissitudes, the house kept its original character. It was declared a piece of national heritage in 1996 considering its special architecture, ornaments and industry-historical significance. While the idea to turn the House into a centre of photography resurfaced countless times throughout the decades, the plan’s realization waited for the perseverance and hard work of three zealous persons: Magdolna Kolta, Károly Kincses, and András Bánkuti. Hungarian House of Photography, or as its friends call it, Mai Manó House open since November, 1998. The reconstruction of the building – has been sponsored by the Hungarian State and planned by Szántó and Mikó Architects – is not far from completion."
+
+        "\n\n Mai Manó House presents its exhibitions on three floors."
+
+        "\n\n On the mezzanine, in Kis Manó Gallery – in the bookshop – we organize small-scale exhibitions, sometimes from the works of debutant photographers."
+
+        "\n\n In the four rooms interconnected on the first floor, we organize thematic shows, group-presentations, retrospective exhibitions of classic masters from home and abroad."
+
+        "\n\n On the second floor, in the rooms next to Mai Manó’s Sunlight studio, the retrospective exhibitions may continue or we present a coherent series of photographs."
+
+        "\n\n Our choices are based on quality, not style, which results in a miscellaneous variety of exhibitions, and a colourful overview of the field of photography. We focus on contemporary, sometimes classic works of art."
+
+        "\n\n The aim of Mai Manó House is to advance the development of Hungarian photography and raise photography’s national prestige as a distinct form of art."
     </string>
 
     <!-- Preference Titles -->

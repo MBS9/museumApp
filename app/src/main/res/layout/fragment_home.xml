@@ -14,11 +14,10 @@
         android:layout_height="132dp"
         android:alpha="0.5"
         android:src="@drawable/britannica__1_"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tabLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/mmh_banner" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
@@ -64,7 +63,7 @@
         android:id="@+id/imu_banner"
         android:layout_width="340dp"
         android:layout_height="107dp"
-        android:layout_marginTop="-17dp"
+        android:layout_marginTop="-18dp"
         android:background="#FFFFFF"
         android:src="@drawable/imu_banner"
         app:layout_constraintBottom_toBottomOf="@+id/tabLayout"
@@ -78,7 +77,7 @@
         android:id="@+id/mucsarnok_banner"
         android:layout_width="340dp"
         android:layout_height="107dp"
-        android:layout_marginTop="-25dp"
+        android:layout_marginTop="-27dp"
         android:background="#FFFFFF"
         android:src="@drawable/mucsarnok_banner"
         app:layout_constraintBottom_toBottomOf="@+id/tabLayout"
@@ -86,6 +85,20 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imu_banner"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ImageButton
+        android:id="@+id/mmh_banner"
+        android:layout_width="340dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="-24dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/mmh_banner"
+        app:layout_constraintBottom_toBottomOf="@+id/tabLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mucsarnok_banner"
         app:layout_constraintVertical_bias="0.024" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

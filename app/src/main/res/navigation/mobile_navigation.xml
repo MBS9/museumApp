@@ -37,5 +37,10 @@
         android:name="com.example.museumapp.ui.mucsarnok_folder.mucsarnok"
         android:label="@string/mucsarnok"
         tools:layout="@layout/fragment_mucsarnok" />
+    <fragment
+        android:id="@+id/nav_mai_mano_house"
+        android:name="com.example.museumapp.ui.mai_mano_house_folder.mai_mano_house"
+        android:label="@string/mai_mano_house"
+        tools:layout="@layout/fragment_mucsarnok" />
 
 </navigation>

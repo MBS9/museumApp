@@ -28,6 +28,10 @@
             android:id="@+id/nav_mucsarnok"
             android:icon="@drawable/mucsarnok_24"
             android:title="@string/mucsarnok" />
+        <item
+            android:id="@+id/nav_mai_mano_house"
+            android:icon="@drawable/mmh_24"
+            android:title="@string/mai_mano_house" />
 
     </group>
 </menu>
