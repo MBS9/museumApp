@@ -32,6 +32,14 @@
             android:id="@+id/nav_mai_mano_house"
             android:icon="@drawable/mmh_24"
             android:title="@string/mai_mano_house" />
+        <item
+            android:id="@+id/nav_lumu"
+            android:icon="@drawable/lumu_24"
+            android:title="@string/lumu" />
+        <item
+            android:id="@+id/nav_mfab"
+            android:icon="@drawable/mfab_24"
+            android:title="@string/mfab" />
 
     </group>
 </menu>

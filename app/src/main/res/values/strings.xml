@@ -15,6 +15,8 @@
     <string name="national_gallery">National Gallery</string>
     <string name="mucsarnok">Műcsarnok</string>
     <string name="mai_mano_house">Mai Manó House</string>
+    <string name="lumu">Ludwig Museum</string>
+    <string name="mfab">Museum of Fine Arts</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="large_text">
 
@@ -81,6 +83,38 @@
         "\n\n Our choices are based on quality, not style, which results in a miscellaneous variety of exhibitions, and a colourful overview of the field of photography. We focus on contemporary, sometimes classic works of art."
 
         "\n\n The aim of Mai Manó House is to advance the development of Hungarian photography and raise photography’s national prestige as a distinct form of art."
+    </string>
+
+    <string name="lumu_text">
+
+        "Ludwig Museum - Museum of Contemporary Art collects and displays masterworks of modern and contemporary art."
+
+        "\n\n Its collection contains valuable pieces of American pop art (Andy Warhol, Claes Oldenburg, Robert Rauschenberg etc.). Yet focusing on Eastern and Central European art, it also puts a special emphasis on presenting the Hungarian art of the 60's to recent days in an international context. Besides, temporary exhibitions showcase leading artists of the international scene as well as the best-known Hungarian masters. Be sure to explore the Museum's colourful place which is indeed a contemporary work of art as well."
+
+        "\n\n The German couple, Irene and Peter Ludwig, the founders of Ludwig Museum – Museum of Contemporary Art, Budapest, built up a collection of more than 12 thousand works of art, ranging from antiquities to contemporary art. The pieces they have donated or lent are on display at 30 museums worldwide, out of which 12 bears the name of the founders, among others institutions in Budapest, Cologne, Vienna and Beijing."
+
+        "\n\n Ludwig Museum, Budapest – the first Ludwig institution beyond the Iron Curtain – was founded in 1989, which was preceded by the formation of Ludwig Foundation in Hungary in 1987."
+
+        "\n\n Ludwig Museum is located inside the Palace of Arts (Művészetek Palotája) aka. MÜPA. The Museum's three floors are in the west wing of the building ensuring a spectacular view from the exhibition halls and the balcony and terrace. "
+
+        "\n\n The Ludwig Museum’s collection building, exhibitions and events aim at enabling a wider public to form a closer acquaintance with contemporary art, as well as the preservation of its values. Professional activities are performed by specifically qualified colleagues. We make regular re-assessment of our goals and achievements and we are open to changes if the need arises. We provide continuous dialogue between past and present, between mainstream art and experimental artistic initiations.
+"
+        "\n\n The Museum functions as a public space open to the widest possible public. Following the principle of inclusivity the Museum is continually working on providing ever better conditions of access to its collection and events. We strive to conduct our daily work in an economically and environmentally sustainable form."
+    </string>
+
+    <string name="mfab_text">
+
+        "The Museum of Fine Arts, opened in 1906, is reputed to be among Europe’s most prominent museums. Its multi-faceted collections and their historical continuity coupled with the large number of masterpieces undoubtedly earn it a prestigious place among public collections. The Museum of Fine Arts displays the treasures of international and Hungarian art spanning from ancient times to the end of the eighteenth century, while its large-scale temporary exhibitions attract hundreds of thousands of visitors."
+
+        "\n\n After the most comprehensive reconstruction project in its history, the museum re-opened at the end of 2018. Thanks to the modernisation, the Museum of Fine Arts now satisfies twenty-first-century requirements for collection care and visitor engagement. "
+
+        "\n\n Parallel to the reconstruction, the permanent exhibitions were also renewed: the collection of Hungarian art before 1800 – which was separated from international art in two stages after 1957 and transferred to the Hungarian National Gallery – “came home” after a long period of absence. As a result, returning to its original concept, introduced at the time of its opening in 1906, the museum is again operating as an exhibition venue presenting Hungarian and international art history to the public. Besides showcasing ancient cultures thanks to its collections of Egyptian and classical antiquities, the museum has also become home to artworks from before 1800. Until the opening of the New National Gallery in the City Park, whose building was designed by the Pritzker Prize-winning SAANA architectural firm, works of art from the period after the beginning of the nineteenth century can be viewed in the Hungarian National Gallery in Buda Castle."
+
+        "\n\n World War I and the following austerities broke the museum’s spectacular development, although important works entered the collections even in the interwar period. However, World War II shook the Museum of Fine Arts to its very core, dealing severe blows and causing great damage to the institution. The upper staircase was hit by a bomb and the glass roof was completely destroyed. In the last months of the war, the majority of the artworks, including the most valuable masterpieces, were hurriedly and carelessly thrown on rail cars and transported to the west. The collection returned to Hungary from Germany between 1946 and 1947, damaged to a great extent. A smaller proportion of the paintings went missing or were destroyed during rescue efforts and war operations, and have been listed among the war losses to this day."
+
+        "\n\n The Hungarian works were separated from the collection of the Museum of Fine Arts after 1957 and were transferred to the Hungarian National Gallery. The two institutions were reunited in 2012 and the Hungarian works from the period before 1800 returned home to the renovated building of the Museum of Fine Arts in 2018."
+
+        "\n\n During its centuries of history, the number of works in some of the Museum of Fine Arts’ collections increased manifold; moreover, new departments were added. The number of artworks found in the museum today exceeds 120 thousand."
     </string>
 
     <!-- Preference Titles -->

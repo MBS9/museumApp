@@ -45,4 +45,26 @@
         android:background="#FFFFFF"
         android:src="@drawable/mmh_banner"
         tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/lumu_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mmh_banner"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/lumu_banner"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/mfab_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lumu_banner"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/mfab_banner"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

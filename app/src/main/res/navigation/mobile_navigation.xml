@@ -52,5 +52,15 @@
         android:name="com.example.museumapp.ui.science_fragment.science"
         android:label="Science"
         tools:layout="@layout/fragment_science" />
+    <fragment
+        android:id="@+id/nav_lumu"
+        android:name="com.example.museumapp.ui.lumu_folder.lumu"
+        android:label="Ludwig Museum"
+        tools:layout="@layout/fragment_lumu" />
+    <fragment
+        android:id="@+id/nav_mfab"
+        android:name="com.example.museumapp.ui.mfab_folder.mfab"
+        android:label="Museum of Fine Arts"
+        tools:layout="@layout/fragment_mfab" />
 
 </navigation>
