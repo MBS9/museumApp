@@ -41,6 +41,16 @@
         android:id="@+id/nav_mai_mano_house"
         android:name="com.example.museumapp.ui.mai_mano_house_folder.mai_mano_house"
         android:label="@string/mai_mano_house"
-        tools:layout="@layout/fragment_mucsarnok" />
+        tools:layout="@layout/fragment_mai_mano_house" />
+    <fragment
+        android:id="@+id/nav_visual_arts"
+        android:name="com.example.museumapp.ui.visual_arts_folder.visual_arts"
+        android:label="Visual Arts"
+        tools:layout="@layout/fragment_visual_arts" />
+    <fragment
+        android:id="@+id/nav_science"
+        android:name="com.example.museumapp.ui.science_fragment.science"
+        android:label="Science"
+        tools:layout="@layout/fragment_science" />
 
 </navigation>

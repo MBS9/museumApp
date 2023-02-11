@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.visual_arts_folder.visual_arts">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:id="@+id/mnc_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/mnc_banner"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/mucsarnok_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mnc_banner"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/mucsarnok_banner"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/mmh_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mucsarnok_banner"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/mmh_banner"
+        tools:ignore="SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
