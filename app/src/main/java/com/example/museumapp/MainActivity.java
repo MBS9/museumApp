@@ -44,47 +44,11 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 
     ImageButton imuImageButton;
-    TabLayout tablayout;
-    ViewPager2 viewPager2;
-    ViewPagerAdapter ViewPagerAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-
-
-        tablayout = findViewById(R.id.tabLayout);
-        viewPager2 = findViewById(R.id.view_pager);
-        ViewPagerAdapter = new ViewPagerAdapter( this);
-        ViewPagerAdapter = new ViewPagerAdapter( this);
-        viewPager2.setAdapter(ViewPagerAdapter);
-
-        tablayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                viewPager2.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
-
-        viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-            @Override
-            public void onPageSelected(int position) {
-                super.onPageSelected(position);
-                tablayout.getTabAt(position).select();
-            }
-        });
 
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         setSupportActionBar(binding.appBarMain.toolbar);
