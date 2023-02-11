@@ -53,8 +53,11 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+
+
         tablayout = findViewById(R.id.tabLayout);
         viewPager2 = findViewById(R.id.view_pager);
+        ViewPagerAdapter = new ViewPagerAdapter( this);
         ViewPagerAdapter = new ViewPagerAdapter( this);
         viewPager2.setAdapter(ViewPagerAdapter);
 
