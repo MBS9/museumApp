@@ -3,10 +3,13 @@ package com.example.museumapp.ui.visual_arts_folder;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import com.example.museumapp.R;
 
@@ -50,6 +53,43 @@ public class visual_arts extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_visual_arts, container, false);
+        View root = inflater.inflate(R.layout.fragment_visual_arts, container, false);
+        ImageButton imuImageButton = (ImageButton) root.findViewById(R.id.mnc_banner);
+        NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment_content_main);
+        imuImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.nav_national_museum);
+            }
+        });
+        ImageButton muBtn = (ImageButton) root.findViewById(R.id.mucsarnok_banner);
+        muBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.nav_mucsarnok);
+            }
+        });
+        ImageButton mBtn = (ImageButton) root.findViewById(R.id.mmh_banner);
+        mBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.nav_mai_mano_house);
+            }
+        });
+        ImageButton lBtn = (ImageButton) root.findViewById(R.id.lumu_banner);
+        lBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.nav_lumu);
+            }
+        });
+        ImageButton mfabBtn = (ImageButton) root.findViewById(R.id.mfab_banner);
+        mfabBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.nav_mfab);
+            }
+        });
+        return root;
     }
 }
