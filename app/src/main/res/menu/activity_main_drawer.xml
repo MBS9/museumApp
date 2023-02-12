@@ -17,10 +17,6 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_museum_of_illusions"
-            android:icon="@drawable/imu_24"
-            android:title="@string/museum_of_illusions" />
-        <item
             android:id="@+id/nav_national_museum"
             android:icon="@drawable/mng_logo_24"
             android:title="@string/national_gallery" />
@@ -40,6 +36,14 @@
             android:id="@+id/nav_mfab"
             android:icon="@drawable/mfab_24"
             android:title="@string/mfab" />
+        <item
+            android:id="@+id/nav_museum_of_illusions"
+            android:icon="@drawable/imu_24"
+            android:title="@string/museum_of_illusions" />
+        <item
+            android:id="@+id/nav_elte"
+            android:icon="@drawable/elte_24"
+            android:title="@string/elte"/>
 
     </group>
 </menu>

@@ -1,14 +1,12 @@
 package com.example.museumapp.ui;
 
-import android.os.Bundle;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.example.museumapp.ui.science_fragment.science;
-import com.example.museumapp.ui.visual_arts_folder.visual_arts;
+import com.example.museumapp.ui.national_gallery_folder.visual_arts_folder.visual_arts;
 
 
 

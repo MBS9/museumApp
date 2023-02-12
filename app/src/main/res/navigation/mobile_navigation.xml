@@ -44,7 +44,7 @@
         tools:layout="@layout/fragment_mai_mano_house" />
     <fragment
         android:id="@+id/nav_visual_arts"
-        android:name="com.example.museumapp.ui.visual_arts_folder.visual_arts"
+        android:name="com.example.museumapp.ui.national_gallery_folder.visual_arts_folder.visual_arts"
         android:label="Visual Arts"
         tools:layout="@layout/fragment_visual_arts" />
     <fragment
@@ -62,5 +62,10 @@
         android:name="com.example.museumapp.ui.mfab_folder.mfab"
         android:label="Museum of Fine Arts"
         tools:layout="@layout/fragment_mfab" />
+    <fragment
+        android:id="@+id/nav_elte"
+        android:name="com.example.museumapp.ui.elte_folder.elte"
+        android:label="ELTE"
+        tools:layout="@layout/fragment_elte" />
 
 </navigation>

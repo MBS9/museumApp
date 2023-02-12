@@ -18,6 +18,7 @@ import android.widget.ImageButton;
 import com.example.museumapp.R;
 import com.example.museumapp.ui.museum_of_illusions_folder.museum_of_illusions;
 
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link science#newInstance} factory method to
@@ -68,6 +69,13 @@ public class science extends Fragment {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.nav_museum_of_illusions);
+            }
+        });
+        ImageButton elteBtn = (ImageButton) root.findViewById(R.id.elte_banner);
+        elteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.nav_elte);
             }
         });
         return root;
