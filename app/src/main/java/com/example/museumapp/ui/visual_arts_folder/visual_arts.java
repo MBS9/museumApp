@@ -1,4 +1,4 @@
-package com.example.museumapp.ui.national_gallery_folder.visual_arts_folder;
+package com.example.museumapp.ui.visual_arts_folder;
 
 import android.os.Bundle;
 

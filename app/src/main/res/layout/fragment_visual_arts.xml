@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.national_gallery_folder.visual_arts_folder.visual_arts">
+    tools:context=".ui.visual_arts_folder.visual_arts">
 
     <!-- TODO: Update blank fragment layout -->
 
