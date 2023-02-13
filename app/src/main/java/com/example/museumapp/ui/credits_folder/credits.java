@@ -1,4 +1,4 @@
-package com.example.museumapp.ui.interestsquiz;
+package com.example.museumapp.ui.credits_folder;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.museumapp.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link InterestsQuiz#newInstance} factory method to
+ * Use the {@link credits#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class InterestsQuiz extends Fragment {
+public class credits extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class InterestsQuiz extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public InterestsQuiz() {
+    public credits() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class InterestsQuiz extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment InterestsQuiz.
+     * @return A new instance of fragment credits.
      */
     // TODO: Rename and change types and number of parameters
-    public static InterestsQuiz newInstance(String param1, String param2) {
-        InterestsQuiz fragment = new InterestsQuiz();
+    public static credits newInstance(String param1, String param2) {
+        credits fragment = new credits();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class InterestsQuiz extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_interests_quiz, container, false);
+        return inflater.inflate(R.layout.fragment_credits, container, false);
     }
 }

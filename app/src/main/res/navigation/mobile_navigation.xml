@@ -23,10 +23,10 @@
         android:label="@string/museum_of_illusions"
         tools:layout="@layout/fragment_example_museum" />
     <fragment
-        android:id="@+id/nav_interests_quiz"
-        android:name="com.example.museumapp.ui.interestsquiz.InterestsQuiz"
-        android:label="Interests Quiz"
-        tools:layout="@layout/fragment_interests_quiz" />
+        android:id="@+id/nav_credits"
+        android:name="com.example.museumapp.ui.credits_folder.credits"
+        android:label="Credits"
+        tools:layout="@layout/fragment_credits" />
     <fragment
         android:id="@+id/nav_national_museum"
         android:name="com.example.museumapp.ui.national_gallery_folder.national_gallery"
