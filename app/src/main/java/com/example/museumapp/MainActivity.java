@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
     public NavController navController;
 
-    ImageButton imuImageButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

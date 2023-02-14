@@ -8,15 +8,17 @@
     android:backgroundTintMode="add"
     tools:context=".ui.credits_folder.credits">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/credits"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="284dp"
+        android:layout_height="168dp"
+        android:text="This app was developed by team lead of Maros Gergely and with collaboration of Mark Barsi-Siminszky in Britannica High School, Budapest \n\n-add your name here"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.499"
+        tools:textAlignment="center" />
 </androidx.constraintlayout.widget.ConstraintLayout>
