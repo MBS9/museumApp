@@ -12,11 +12,22 @@
         android:layout_height="wrap_content"
         android:text="View Full Information"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/lumu_picture"
+        app:layout_constraintBottom_toTopOf="@+id/abt_btn_lumu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nestedScrollView" />
+    <Button
+        android:id="@+id/abt_btn_lumu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How do I get there?"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/lumu_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_lumu" />
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollView"
