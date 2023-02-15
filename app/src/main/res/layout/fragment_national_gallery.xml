@@ -7,16 +7,27 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/view_national_museum"
+        android:id="@+id/view_national_gallery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View Full Information"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/national_museum_picture"
+        app:layout_constraintBottom_toTopOf="@+id/abt_btn_mnc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nestedScrollView" />
+    <Button
+        android:id="@+id/abt_btn_mnc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How do I get there?"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/national_gallery_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_national_gallery" />
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollView"
@@ -54,7 +65,7 @@
         app:srcCompat="@drawable/mng_logo_eng" />
 
     <ImageView
-        android:id="@+id/national_museum_picture"
+        android:id="@+id/national_gallery_picture"
         android:layout_width="328dp"
         android:layout_height="247dp"
         android:layout_marginBottom="52dp"
