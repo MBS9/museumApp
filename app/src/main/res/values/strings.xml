@@ -18,6 +18,7 @@
     <string name="lumu">Ludwig Museum</string>
     <string name="elte">ELTE</string>
     <string name="mfab">Museum of Fine Arts</string>
+    <string name="petofi">Petőfi Literary Museum</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="large_text">
 
@@ -116,6 +117,19 @@
         "\n\n The Hungarian works were separated from the collection of the Museum of Fine Arts after 1957 and were transferred to the Hungarian National Gallery. The two institutions were reunited in 2012 and the Hungarian works from the period before 1800 returned home to the renovated building of the Museum of Fine Arts in 2018."
 
         "\n\n During its centuries of history, the number of works in some of the Museum of Fine Arts’ collections increased manifold; moreover, new departments were added. The number of artworks found in the museum today exceeds 120 thousand."
+    </string>
+
+    <string name="petofi_text">
+
+        "The Petőfi Literary Museum was established in 1954. As the legal successor of Petőfi House, which operated as an exhibition and research centre between 1909 and 1945, the newly founded museum inherited a considerable collection."
+
+        "\n\n The founding of Petőfi House in 1909 was encouraged not only by the institutionalization of the Petőfi cult, but also the realisation that at the time writers’ documents, although part of the national heritage, were not included in the collections of libraries, museums and archives. Alongside the undertaking to preserve the valuable documents launched by the Petőfi Society, the activity of Petőfi House not only included the collection of Petőfi manuscripts, books and relics available at that time, but also the purchase of the house on Bajza Street, which was owned jointly by Mór Jókai and his son-in-law, Árpád Feszty. Thus Petőfi House began keeping and conserving Jókai relics and maintaining his cult."
+
+        "\n\n The task of the new, national museum was not only to process the inherited estates in an up-to-date manner, but also to persistently collect valuable items of contemporary Hungarian literature. Thus the Literary Museum’s scale of collecting became rather broad. It extended to literature written in Hungarian in Hungary and across the country’s borders, correspondence and collections of writers’ libraries, objects and artworks with a literary theme, as well as sound recordings. Later the collection of emigré newspapers, books and manuscripts was established and expanded."
+
+        "\n\n Right from the time of its establishment, the museum’s tasks included mentoring literary collections and exhibitions in the provinces. The PLM has become an institution of literary museology with nationwide authority, which not only assists staging exhibitions in provincial memorial houses and rooms, but also has contacts with Hungarian literary memorial sights abroad. In 2008, the Association of Hungarian Literary Memorial Houses was established on the initiative of the Petőfi Literary Museum in the spirit of professional cooperation."
+
+        "\n\n From December 1998 the literary museum, again bearing Petőfi’s name, became a part of the Károlyi Mansion Cultural Centre after the cessation of the Centre of Contemporary Literature in 2000. In 2003 the Petőfi Literary Museum was given a new organisational structure, which was extended with the Béla Hamvas Culture Research Institute in the same year. Then the PLM was joined by the Academy of Digital Literature in 2007, the Hungarian Books and Translations Office in 2012, the Museum of Hungarian Language and the Ferenc Kazinczy Museum in 2013."
     </string>
 
     <!-- Preference Titles -->
