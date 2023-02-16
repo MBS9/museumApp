@@ -53,6 +53,11 @@
         android:label="Science"
         tools:layout="@layout/fragment_science" />
     <fragment
+        android:id="@+id/nav_other"
+        android:name="com.example.museumapp.ui.other_folder.other"
+        android:label="Science"
+        tools:layout="@layout/fragment_other" />
+    <fragment
         android:id="@+id/nav_lumu"
         android:name="com.example.museumapp.ui.lumu_folder.lumu"
         android:label="Ludwig Museum"

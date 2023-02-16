@@ -46,7 +46,7 @@
             android:title="@string/elte"/>
         <item
             android:id="@+id/nav_petofi"
-            android:icon="@drawable/elte_24"
+            android:icon="@drawable/petofi_24"
             android:title="@string/petofi"/>
 
     </group>

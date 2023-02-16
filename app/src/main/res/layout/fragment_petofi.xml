@@ -33,11 +33,13 @@
         android:id="@+id/nestedScrollView"
         android:layout_width="353dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="20dp"
         android:clipToPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/petofi_logo"
+        app:layout_constraintVertical_bias="0.032"
         tools:context=".ExampleMuseum">
 
         <TextView
