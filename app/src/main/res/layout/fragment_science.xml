@@ -28,8 +28,34 @@
         android:background="@android:color/background_light"
         android:src="@drawable/elte_banner"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imu_banner"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/semmelweis_banner"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/background_light"
+        android:src="@drawable/semmelweis_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elte_banner"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/konkoly_banner"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/background_light"
+        android:src="@drawable/konkoly_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/semmelweis_banner"
         tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

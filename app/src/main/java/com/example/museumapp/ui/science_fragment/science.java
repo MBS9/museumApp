@@ -78,6 +78,20 @@ public class science extends Fragment {
                 navController.navigate(R.id.nav_elte);
             }
         });
+        ImageButton semmelweisbtn = (ImageButton) root.findViewById(R.id.semmelweis_banner);
+        semmelweisbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.nav_elte/*NOTE CHANGE!*/);
+            }
+        });
+        ImageButton konkolybtn = (ImageButton) root.findViewById(R.id.konkoly_banner);
+        konkolybtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.nav_elte/*NOTE CHANGE!*/);
+            }
+        });
         return root;
     }
 }
