@@ -77,5 +77,10 @@
         android:name="com.example.museumapp.ui.petofi_folder.petofi"
         android:label="Petőfi Literary Museum"
         tools:layout="@layout/fragment_petofi" />
+    <fragment
+        android:id="@+id/nav_hdke"
+        android:name="com.example.museumapp.ui.hdke_folder.hdke"
+        android:label="Holocaust Museum"
+        tools:layout="@layout/fragment_hdke" />
 
 </navigation>

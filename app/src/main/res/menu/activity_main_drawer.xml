@@ -48,6 +48,10 @@
             android:id="@+id/nav_petofi"
             android:icon="@drawable/petofi_24"
             android:title="@string/petofi"/>
+        <item
+            android:id="@+id/nav_hdke"
+            android:icon="@drawable/hdke_24"
+            android:title="Holocaust Museum"/>
 
     </group>
 </menu>
