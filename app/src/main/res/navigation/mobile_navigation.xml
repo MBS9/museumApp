@@ -82,5 +82,10 @@
         android:name="com.example.museumapp.ui.hdke_folder.hdke"
         android:label="Holocaust Museum"
         tools:layout="@layout/fragment_hdke" />
+    <fragment
+        android:id="@+id/nav_aquincum"
+        android:name="com.example.museumapp.ui.aquincum_folder.aquincum"
+        android:label="Aquincum Museum"
+        tools:layout="@layout/fragment_aquincum" />
 
 </navigation>

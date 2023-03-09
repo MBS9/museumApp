@@ -19,5 +19,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/aquincum_banner"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/background_light"
+        android:src="@drawable/aquincum_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hdke_banner"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

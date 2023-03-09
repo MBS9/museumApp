@@ -65,14 +65,13 @@ public class history extends Fragment {
                 navController.navigate(R.id.nav_hdke);
             }
         });
-        /* ImageButton elteBtn = (ImageButton) root.findViewById(R.id.elte_banner);
-        elteBtn.setOnClickListener(new View.OnClickListener() {
+        ImageButton aquincumbtn = (ImageButton) root.findViewById(R.id.aquincum_banner);
+        aquincumbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.nav_elte);
+                navController.navigate(R.id.nav_aquincum);
             }
         });
-        */
 
         return root;
     }
