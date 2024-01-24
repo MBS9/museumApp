@@ -1,4 +1,4 @@
-package com.example.museumapp.ui.lumu_folder;
+package com.example.museumapp.ui.mfab_folder.lumu_folder;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
