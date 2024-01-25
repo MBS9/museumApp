@@ -30,7 +30,7 @@ public class aquincum extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.nav_credits);
+                navController.navigate(R.id.nav_aquincum_howdigethere);
             }
         });
         TextView description = view.findViewById(R.id.description_museum_example);
