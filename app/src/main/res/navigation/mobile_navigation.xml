@@ -59,7 +59,7 @@
         tools:layout="@layout/fragment_other" />
     <fragment
         android:id="@+id/nav_lumu"
-        android:name="com.example.museumapp.ui.mfab_folder.lumu_folder.lumu"
+        android:name="com.example.museumapp.ui.lumu_folder.lumu"
         android:label="Ludwig Museum"
         tools:layout="@layout/fragment_lumu" />
     <fragment
@@ -87,5 +87,10 @@
         android:name="com.example.museumapp.ui.aquincum_folder.aquincum"
         android:label="Aquincum Museum"
         tools:layout="@layout/fragment_aquincum" />
+    <fragment
+        android:id="@+id/nav_aquincum_howdigethere"
+        android:name="com.example.museumapp.ui.aquincum_hdigt_folder.aquincum_hdigt"
+        android:label="Aquincum How do I get there"
+        tools:layout="@layout/fragment_aquincum_hdigt" />
 
 </navigation>

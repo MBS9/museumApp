@@ -6,7 +6,6 @@ import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.media.Image;
 import android.net.Uri;
-import com.google.android.gms.maps.SupportMapFragment;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
